@@ -3,3 +3,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+.home{
+    width: 100%;
+    min-height:100vh;
+    background-color: rgb(33, 30, 30);
+    font-family: sans-serif;
+}
+h2{
+    font-size:xx-large;
+    color: #e1cdb2;
+    font-weight: bolder;
+}
+h3{
+    color:#e1cdb2;
+}
+p{
+    color: #ffeace;
+    margin-left : 10px
+}
+nav{
+    height: 60px;
+    background-color: rgb(68, 68, 68);
+    padding:10px 60px;
+    display: flex;
+    align-items: center;
+}
+.content{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.left ,.right{
+    width: 50%;
+}
+.title{
+    font-weight: 1000;
+}
